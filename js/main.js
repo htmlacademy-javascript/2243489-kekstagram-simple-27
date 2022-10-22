@@ -11,6 +11,6 @@ getRandInt(2, 23);
 const measureString = (str, maxLength) => {
   const result = (str.length <= maxLength && str.length !== 0);
   return result;
-}
+};
 measureString('2', 3);
 
